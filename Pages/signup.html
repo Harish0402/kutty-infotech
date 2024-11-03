@@ -122,7 +122,8 @@ button {
 
 function validateForm(event) {
             event.preventDefault(); // Prevent form submission
-            
+
+             const username = document.getElementById('username').value;
             const password = document.getElementById('password').value;
             const confirmPassword = document.getElementById('confirmPassword').value;
 
