@@ -115,7 +115,7 @@ button {
     </main><br>
 
     <footer class="">
-        <p>&copy; 2024 Computer Service & Sales. All rights reserved.</p>
+        <p>&copy; 2024  Kutty Infotechs&nbsp; &REG;  All rights reserved.</p>
     </footer>
 
     <script defer>
@@ -129,7 +129,7 @@ function validateForm(event) {
             if (password !== confirmPassword) {
                 alert("Passwords do not match.");
             } else {
-                alert("Form submitted successfully!");
+                alert("Account Created Successfully! Welcome, ${username}!");
                 clearForm();
                 // Here you can add the code to submit the form
                 // e.g., using AJAX or by actually submitting the form
@@ -151,6 +151,7 @@ function validateForm(event) {
 
         function clearForm() {
             document.getElementById('username').value = '';
+            document.getElementById('email').value = '';
             document.getElementById('password').value = '';
             document.getElementById('confirmPassword').value = '';
             document.getElementById('password').type = 'password';

@@ -1,5 +1,6 @@
 header {
-    background-color:dimgrey;
+    background-color: #35424a;
+    color: #ffffff;
 
 
     div{
@@ -8,6 +9,7 @@ header {
         font-weight: 800;
         font-size: 22px;
         align-items: center;
+        padding: 3px;
     }
 
     img{
@@ -19,7 +21,8 @@ header {
 }   
 
  nav{
-    background-color:dimgrey;
+    background-color: #35424a;
+    padding: 3px;
 
         div{
         display: flex;
@@ -45,4 +48,23 @@ header {
 
     body{
         background-color:beige;
+    }
+
+    .content{
+        height: 200px;
+        width: 600px;
+        background-color: #ffffff;
+        margin-left: 40px;
+        padding: 20px;
+        border-radius: 30px;
+    }
+
+    footer{
+        text-align: center;
+        padding: 10px 0;
+        background: #35424a;
+        color: #ffffff;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
     }

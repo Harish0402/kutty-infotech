@@ -1,5 +1,6 @@
 header {
-  background-color: dimgrey;
+  background-color: #35424a;
+  color: #ffffff;
 }
 header div {
   display: flex;
@@ -7,6 +8,7 @@ header div {
   font-weight: 800;
   font-size: 22px;
   align-items: center;
+  padding: 3px;
 }
 header img {
   border-radius: 50%;
@@ -15,7 +17,8 @@ header img {
 }
 
 nav {
-  background-color: dimgrey;
+  background-color: #35424a;
+  padding: 3px;
 }
 nav div {
   display: flex;
@@ -38,6 +41,25 @@ h2 {
 
 body {
   background-color: beige;
+}
+
+.content {
+  height: 200px;
+  width: 600px;
+  background-color: #ffffff;
+  margin-left: 40px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #35424a;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */
